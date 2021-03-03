@@ -1,0 +1,3 @@
+# Distribution of anthropometric measures
+
+This folder contains many csv files showing the anthropometric metrics distribution across multiple geographical locations. For each metric, the names of the sheets contained in the csv file indicate the location of the population sample. Besides, link to the original paper where the distribution was taken is also included in the csv sheets. The parameters of the distributions are stored inside the symptom checker app and the user of the app can easily view and compare different population samples.
