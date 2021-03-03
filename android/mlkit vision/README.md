@@ -1,6 +1,6 @@
 # ML Kit Vision Quickstart Sample App
 
-The contents of this folder are adapted from [this repo](). 
+The contents of this folder are adapted from [this repo](https://github.com/googlesamples/mlkit/tree/master/android/vision-quickstart). 
 
 ## Introduction
 
