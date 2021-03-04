@@ -23,7 +23,7 @@ There are two modes, online and offline detection.
 
 2. Online detection: After opening the facial landmark detection app and configuring the diseases to be detected, the user can view in real time the tags put near identified faces. In recording mode, the identified unique faces and the tagging results will be saved in a session log, linked with the recording video file. 
 
-After installing the ```mlkit vision``` app on a device or simulator, choose the ```kotlin``` branch and then ```cameraX``` branch. Accept necessary permissions and when the camera opens, select ```face detection``` mode. Make sure in the app's own settings, ```classification mode``` and ```detection all contours``` are selected. Then you should be able to see facial indices such as canthal index in real time along with other classification metrics (like eyes being opened probability). 
+After installing the ```mlkit vision``` app on a device or simulator, choose the ```kotlin``` branch and then ```cameraX``` branch. Accept necessary permissions and when the camera opens, select ```face detection``` mode. Make sure in the app's own settings, ```classification mode``` and ```detect all contours``` are selected. Then you should be able to see facial indices such as canthal index in real time along with other classification metrics (like eyes being opened probability). 
 
 ### Application and extension
 
@@ -33,6 +33,7 @@ This app can be used for the surveillance purpose, generating alerts in the situ
 
 ### Fix mlkit vision bugs:
 
+- [ ] Write test cases to validate the correctness of the landmarks' position ( Currently it seems the landmarks, especially those around the eye area, do NOT have good accuracy, resulting in derived statistics, like canthal index, being wrong)
 - [ ] Auto mirror view and correct left/right mislabeling
 - [ ] Reduce app size
 
